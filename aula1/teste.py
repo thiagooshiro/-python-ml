@@ -19,3 +19,5 @@ plt.title('Relação: Peso e Altura')
 plt.xlabel('Peso em Kg')
 plt.ylabel('Altura em cm')
 plt.legend()
+
+ 

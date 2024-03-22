@@ -21,11 +21,8 @@ x = horas - (0.25*faltas/maxFaltas)
 
 media_das_notas = (historia + matematica + ciencias)/3
 
-print(media_das_notas)
-
-
 x = x.reshape(-1, 1)
-y = y.reshape(-1, 1)
+y = media_das_notas.reshape(-1, 1)
 
 
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3)
